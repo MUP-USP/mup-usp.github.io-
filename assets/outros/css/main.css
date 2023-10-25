@@ -1,0 +1,6 @@
+@import url('cores.css');
+@import url('boletim.css');
+
+* {
+  font-family: "Roboto", sans-serif;
+}
