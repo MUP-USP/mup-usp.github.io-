@@ -29,18 +29,20 @@ layout: default
     <br>
     {% for post in site.posts limit : 1 %}
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}" class="post-destaque" style="background-image: url('{{ post.background }}'); background-size: cover">
-      <h2>{{ post.title }}</h2>
-
-      <div class="post-destaque-infos">
-        {% if post.author %}
-        {{ post.author }}
-        {% else %}
-        {{ site.author }}
-        {% endif %}
-        &middot;
-        {{ post.date | date: '%d.%m.%y' }} 
-        &middot; 
-        {% include read_time.html content=post.content %} 
+      <div class="post-destaque-fundo">
+        <h2>{{ post.title }}</h2>
+  
+        <div class="post-destaque-infos">
+          {% if post.author %}
+          {{ post.author }}
+          {% else %}
+          {{ site.author }}
+          {% endif %}
+          &middot;
+          {{ post.date | date: '%d.%m.%y' }} 
+          &middot; 
+          {% include read_time.html content=post.content %} 
+        </div>
       </div>
     </a>
     {% endfor %}

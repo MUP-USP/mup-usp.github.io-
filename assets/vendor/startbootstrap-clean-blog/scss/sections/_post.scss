@@ -96,8 +96,22 @@
     }
 }
 
-
+.post-destaque-fundo {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px;
+}
 .post-destaque {
+    position: relative;
     margin-top: 10px;
     padding: 15px;
     height: 300px;
