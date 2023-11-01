@@ -16,7 +16,7 @@ layout: default
     {% for edicao in edicoes %}
 
       <div class="boletim_edicao" id="edicao_num{{ edicao.edicao }}">
-        <img src="/img/edicoes/capa_ed1.jpg" alt="">
+        <img src="/img/edicoes/capa_ed{{ edicao.edicao }}.jpg" alt="">
         <div class="boletim_edicao_titulo">
           <a href="/boletim/edicoes/pdf/boletim_ed{{ edicao.edicao }}.pdf" id="edicao_num{{ edicao.edicao }}_a"></a>
           {{ edicao.edicao }}ª ed. ({{ edicao.mes }}/{{ edicao.ano }})
