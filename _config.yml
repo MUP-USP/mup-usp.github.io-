@@ -3,7 +3,7 @@ title:              MUP-USP
 description:        Movimento por uma Universidade Popular
 author:             MUP-USP
 baseurl:            "/"
-url:                "http://localhost:4000"
+url:                "https://mup-usp.github.io"
 
 # Social Profiles
 twitter_username:   
