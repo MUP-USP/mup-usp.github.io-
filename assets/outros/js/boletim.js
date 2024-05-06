@@ -1,7 +1,7 @@
 /**
- * MUP-USP!
- * Movimento por uma Universidade Popular - Universidade de São Paulo
- * https://mup-usp.github.io/
+ * UJC-USP!
+ * União da Juventude Comunista - Universidade de São Paulo
+ * https://ujc-usp.github.io/
  * 
  * Este eh o javascript que faz funcionar a pagina de edicoes do boletim.
  */

@@ -1,15 +1,14 @@
-title:              MUP-USP
-# email:            mup@gmail.com
-description:        Movimento por uma Universidade Popular
-author:             MUP-USP
+title:              UJC-USP
+description:        União da Juventude Comunista
+author:             UJC-USP
 baseurl:            "/"
-url:                "https://mup-usp.github.io"
+url:                "https://ujc-usp.github.io"
 
 # Social Profiles
 twitter_username:   
-github_username:    MUP-USP
-facebook_username:  "MUP.USP"
-instagram_username: "mup.usp"
+github_username:    UJC-USP
+facebook_username:  "UJC.USP"
+instagram_username: "ujc.usp"
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
